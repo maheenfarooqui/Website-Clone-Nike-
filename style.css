@@ -366,9 +366,8 @@ footer .fBox ul li a{
         width: 100%;
     }
     .marketing{
-        flex-direction: column;
-        text-align: center;
         gap: 30px;
+        
     }
     .marketing .marketingText .textBox{
         flex-direction: column;
@@ -382,15 +381,25 @@ footer .fBox ul li a{
         width: 450px;
     }
 }
+@media only screen and (max-width: 992px){
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+}
 @media only screen and (max-width: 600px){
     .marketing .marketingText .textBox{
-    width: 440px;
+    width: 100%;
+    
     }
+ 
     .marketing .marketingImg img{
-    width: 430px;
+    width: 350px;
 }
     .newsletter .newsletterBox{
-        width: 430px;
+        width: 400px;
     }
     .newsletter .newsletterBox .inputBox{
         width: 350px;
